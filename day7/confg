@@ -1,0 +1,10 @@
+{
+    "server_ip": "192.168.132.136",
+    "server_port": "1234",
+    "threads_num": "4",
+    "maxevent": "1000",
+  
+}
+
+
+
