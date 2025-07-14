@@ -1,0 +1,5 @@
+# .gitignore 文件内容
+__pycache__/
+*.pyc
+.idea/
+*.iml

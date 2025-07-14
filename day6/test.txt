@@ -1,0 +1,50 @@
+在 Python 中，类属性、类方法、实例属性和实例方法是面向对象编程中定义类和对象的重要概念。它们之间的区别如下：
+1. 类属性（Class Attributes）
+定义：类属性是属于类本身的属性，而不是属于某个具体的实例。它们在类的定义体中定义，并且通过类名访问。
+共享：所有实例共享类属性。如果你修改类属性的值，所有实例都将看到这个新值（除非实例有一个同名的实例属性）。
+访问：可以通过类名和实例名访问。
+class Dog:
+    species = "Canis familiaris"  # 类属性
+    def __init__(self, name):
+        self.name = name  # 实例属性
+# 通过类访问类属性
+print(Dog.species)  # 输出: Canis familiaris
+# 创建实例
+dog1 = Dog("Buddy")
+print(dog1.species)  # 输出: Canis familiaris
+2. 类方法（Class Methods）
+定义：类方法是绑定到类而不是实例的方法。它的第一个参数是 cls，代表类本身。
+装饰器：使用 @classmethod 装饰器来定义。
+用途：通常用于定义那些需要访问和修改类状态的方法（类属性或其他类方法），而不是实例状态。
+class Dog:
+    species = "Canis familiaris"
+    @classmethod
+    def get_species(cls):
+        return cls.species
+print(Dog.get_species())  # 输出: Canis familiaris
+3. 实例属性（Instance Attributes）
+定义：实例属性是属于实例的属性，每个实例都有自己的属性值。在实例的 __init__ 方法中定义。
+访问：只能通过实例访问。
+class Dog:
+    def __init__(self, name):
+        self.name = name  # 实例属性
+dog1 = Dog("Buddy")
+dog2 = Dog("Charlie")
+print(dog1.name)  # 输出: Buddy
+print(dog2.name)  # 输出: Charlie
+4. 实例方法（Instance Methods）
+定义：实例方法是绑定到实例的方法。它的第一个参数是 self，代表实例本身。
+访问：可以访问实例属性和类属性。
+class Dog:
+    species = "Canis familiaris"
+    def __init__(self, name):
+        self.name = name  # 实例属性
+    def bark(self):
+        return f"{self.name} says Woof!"
+dog = Dog("Buddy")
+print(dog.bark())  # 输出: Buddy says Woof!
+总结
+类属性：属于类，可以被所有实例共享。
+类方法：操作类的状态，不能访问实例属性。
+实例属性：属于特定实例，每个实例可以有不同的值。
+实例方法：操作实例的状态，可以访问实例和类的属性。
