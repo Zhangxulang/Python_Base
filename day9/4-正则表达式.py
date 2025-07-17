@@ -4,7 +4,6 @@
 
 import re  #导入正则表达式模块
 
-
 def simple():
     """
     初识
