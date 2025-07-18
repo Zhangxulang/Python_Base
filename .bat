@@ -8,7 +8,7 @@ set GITHUB_URL=https://github.com/Zhangxulang/Python_Base.git
 set BRANCH=master
 
 :: 自动拉取，避免冲突
-echo  正在拉取远程仓库%BRANCH%分支最新内容...
+echo正在拉取远程仓库%BRANCH%分支最新内容...
 git pull origin %BRANCH%
 
 :: 自动添加所有更改并提交
