@@ -1,39 +1,69 @@
 # python_base
+# 🐍 Python_Base
 
-#### 介绍
-{**以下是 Gitee 平台说明，您可以替换此简介**
-Gitee 是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN）。专为开发者提供稳定、高效、安全的云端软件开发协作平台
-无论是个人、团队、或是企业，都能够用 Gitee 实现代码托管、项目管理、协作开发。企业项目请看 [https://gitee.com/enterprises](https://gitee.com/enterprises)}
+📚 一个从零开始的 Python 学习项目，涵盖基础语法、数据结构、函数编程、文件操作、模块使用、数据分析、自动化脚本等内容，适合初学者逐步提升编程能力。
 
-#### 软件架构
-软件架构说明
+---
 
+## 📁 项目结构
 
-#### 安装教程
+```plaintext
+python_base/
+├── day01/         # 变量、数据类型、输入输出、简单计算器
+├── day02/         # 条件语句、逻辑运算、流程控制
+├── day03/         # 循环结构、break/continue、练习题
+├── day04/         # 列表、元组、字符串操作
+├── day05/         # 字典、集合、内置函数
+├── day06/         # 函数定义、参数、作用域
+├── day07/         # 模块、包、random、time 等标准库
+├── day08/         # 文件读写、编码、异常处理
+├── day09/         # 面向对象编程（类、对象、继承）
+├── day10/         # 项目实战 & 第一个脚本自动化工具
+├── day11/         # matplotlib 可视化入门
+├── day12/         # pandas 数据分析基础
+└── tools/         # 常用脚本工具，例如批量重命名、自动推送 Git 等
+🚀 如何使用
+1. 克隆项目
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+git clone https://github.com/Zhangxulang/Python_Base.git
+cd Python_Base
+2. 运行示例代码
 
-#### 使用说明
+python day01/hello_world.py
+3. 运行自动提交脚本（Windows）
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+tools/auto_push.bat
+💡 学习建议
+每天坚持完成一个子目录内容；
 
-#### 参与贡献
+多写、多练、多出错、多总结；
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+推荐手写笔记或思维导图辅助记忆；
 
+建议搭配 PyCharm + Terminal 环境练习。
 
-#### 特技
+📦 环境依赖
+核心使用 Python 标准库，部分高级部分需要：
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
+matplotlib
+
+pandas
+
+安装方式：
+
+pip install matplotlib pandas
+建议使用 Python 3.8+ 环境。
+
+👨‍💻 开发者信息
+作者：@Zhangxulang
+
+Gitee 镜像仓库：https://gitee.com/zhang-xulang/python_base
+
+欢迎交流与建议！
+
+⭐ Star & Fork
+如果你觉得这个项目对你有帮助，欢迎点击右上角 Star ⭐ 支持一下！
+
+也欢迎 Fork 后提交 PR 一起完善内容。有价值开源项目，是综合评定出的优秀开源项目
 5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
 6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
