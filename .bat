@@ -1,43 +1,43 @@
-ï»¿@echo off
+@echo off
 chcp 65001 >nul
 setlocal enabledelayedexpansion
 
-:: è®¾ç½®è¿œç¨‹ä»“åº“åœ°å€å’Œåˆ†æ”¯
+:: ÉèÖÃÔ¶³Ì²Ö¿âµØÖ·ºÍ·ÖÖ§
 set GITEE_URL=https://gitee.com/zhang-xulang/python_base.git
 set GITHUB_URL=https://github.com/Zhangxulang/Python_Base.git
 set BRANCH=master
 
-:: è‡ªåŠ¨æ‹‰å–ï¼Œé¿å…å†²çª
-echo  æ­£åœ¨æ‹‰å–è¿œç¨‹ä»“åº“ %BRANCH% åˆ†æ”¯æœ€æ–°å†…å®¹...
+:: ×Ô¶¯À­È¡£¬±ÜÃâ³åÍ»
+echo  ÕıÔÚÀ­È¡Ô¶³Ì²Ö¿â %BRANCH% ·ÖÖ§×îĞÂÄÚÈİ...
 git pull origin %BRANCH%
 
-:: è‡ªåŠ¨æ·»åŠ æ‰€æœ‰æ›´æ”¹å¹¶æäº¤
+:: ×Ô¶¯Ìí¼ÓËùÓĞ¸ü¸Ä²¢Ìá½»
 set TIME_STR=%date:~0,10%_%time:~0,5%
 set TIME_STR=%TIME_STR: =_%
 set TIME_STR=%TIME_STR::=-%
-echo  è‡ªåŠ¨æäº¤ä¸­ï¼š%TIME_STR%...
+echo  ×Ô¶¯Ìá½»ÖĞ£º%TIME_STR%...
 git add .
-git commit -m "åŒæ¨è‡ªåŠ¨æäº¤æ›´æ–° - %TIME_STR%" >nul 2>nul
+git commit -m "Ë«ÍÆ×Ô¶¯Ìá½»¸üĞÂ - %TIME_STR%" >nul 2>nul
 
-:: é…ç½® origin åŒ pushï¼ˆå¦‚æœå°šæœªè®¾ç½®è¿‡ï¼‰
+:: ÅäÖÃ origin Ë« push£¨Èç¹ûÉĞÎ´ÉèÖÃ¹ı£©
 git remote remove github >nul 2>nul
 git remote set-url --add --push origin %GITEE_URL%
 git remote set-url --add --push origin %GITHUB_URL%
 
-:: æ˜¾ç¤ºå½“å‰è¿œç¨‹ä¿¡æ¯
+:: ÏÔÊ¾µ±Ç°Ô¶³ÌĞÅÏ¢
 echo.
-echo  å½“å‰è¿œç¨‹ä»“åº“é…ç½®ï¼š
+echo  µ±Ç°Ô¶³Ì²Ö¿âÅäÖÃ£º
 git remote -v
 
-:: æ¨é€
+:: ÍÆËÍ
 echo.
-echo  æ­£åœ¨æ¨é€åˆ° Gitee å’Œ GitHub...
+echo  ÕıÔÚÍÆËÍµ½ Gitee ºÍ GitHub...
 git push origin %BRANCH%
 
-:: è‡ªåŠ¨æ‰“å¼€ç½‘é¡µæŸ¥çœ‹
+:: ×Ô¶¯´ò¿ªÍøÒ³²é¿´
 start https://gitee.com/zhang-xulang/python_base
 start https://github.com/Zhangxulang/Python_Base
 
 echo.
-echo æ‰€æœ‰æ“ä½œå®Œæˆï¼
+echo ËùÓĞ²Ù×÷Íê³É£¡
 pause
