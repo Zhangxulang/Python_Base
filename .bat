@@ -19,12 +19,13 @@ echo 自动提交中：%TIME_STR%...
 git add .
 git commit -m "双推自动提交更新 - %TIME_STR%" >nul 2>nul
 
-:: 清空 origin 的所有 push 地址
-echo 清空旧的 push 地址配置...
-git remote set-url --delete-all origin >nul 2>nul
+:: 清空 origin，防止重复 push 地址
+git remote remove origin >nul 2>nul
 
-:: 设置新的 origin 地址并配置双 push
-git remote set-url --add origin %GITEE_URL%
+:: 重新设置 fetch（origin）
+git remote add origin %GITEE_URL%
+
+:: 添加双 push 地址
 git remote set-url --add --push origin %GITEE_URL%
 git remote set-url --add --push origin %GITHUB_URL%
 
