@@ -1,5 +1,5 @@
 ﻿@echo off
-prompt $s
+prompt $G
 chcp 65001 >nul
 setlocal enabledelayedexpansion
 
