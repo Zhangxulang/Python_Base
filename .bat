@@ -8,7 +8,7 @@ set GITHUB_URL=https://github.com/Zhangxulang/Python_Base.git
 set BRANCH=master
 
 :: 自动拉取，避免冲突
-Pulling latest changes from remote branch %BRANCH%...
+echo Pulling latest changes from remote branch %BRANCH%...
 git pull origin %BRANCH%
 
 :: 自动添加所有更改并提交
