@@ -1,0 +1,32 @@
+@echo off
+setlocal enabledelayedexpansion
+
+:: 设置仓库信息（你可以按需修改）
+set GITEE_URL=https://gitee.com/zhang-xulang/python_base.git
+set GITHUB_URL=https://github.com/Zhangxulang/Python_Base.git
+set BRANCH=master
+
+:: 添加 Gitee 为 origin
+git remote remove origin >nul 2>nul
+git remote add origin %GITEE_URL%
+
+:: 添加 GitHub 为 github（若已存在则跳过）
+git remote remove github >nul 2>nul
+git remote add github %GITHUB_URL%
+
+:: 为 origin 添加双 push
+git remote set-url --add --push origin %GITEE_URL%
+git remote set-url --add --push origin %GITHUB_URL%
+
+echo.
+echo ⚙️ 远程仓库配置如下：
+git remote -v
+
+echo.
+echo 🚀 正在推送到 Gitee 和 GitHub（双推）...
+git push origin %BRANCH%
+
+echo.
+echo ✅ 推送完成！
+
+pause
