@@ -9,10 +9,27 @@ def simple():
     初识
     :return:
     """
-    result = re.match("wangdao", "wangdao.cn")
+    # result = re.match("gzu", "https://www.gzu.edu.cn/en/")   #只能从头开始匹配，失败返回None
+    result = re.match("gzu", "gzu.edu.cn/en/")    #函数返回的不是字符串本身，而是一个Match对象:<re.Match object; span=(0, 3), match='gzu'>
     if result:
-        print(result.group())
-
+        print(result)
+        print(result.group())  #group()是 Match对象的方法，用来提取匹配到的内容
+    print('-' * 50)
+    line = "I love you Tsinghua University"
+    # 正则说明：
+    # (.*)     ：第1组，匹配 "are" 之前的所有字符（尽可能多，但要符合整体）
+    # (.*?)    ：第2组，匹配 "are" 之后的内容，尽可能少（非贪婪模式）
+    # .*       ：匹配后面剩余的任何内容
+    pattern = r'(.*) you (.*?) .*'
+    # 进行匹配（从头开始），flags 是多行 + 忽略大小写
+    matchObj = re.match(pattern, line, re.M | re.I)
+    # 如果匹配成功
+    if matchObj:
+        print("整体匹配内容：", matchObj.group())  # 整个表达式匹配到的内容
+        print("第1组（you前）：", matchObj.group(1))  # 第1个括号捕获的内容
+        print("第2组（you后）：", matchObj.group(2))  # 第2个括号捕获的内容
+    else:
+        print("没有匹配到内容")
 
 def single():
     """
@@ -295,7 +312,7 @@ def use_split():
 
 
 if __name__ == '__main__':
-    # simple()
+    simple()
     # single()
     # more_alp()
     # start_end()
@@ -305,4 +322,4 @@ if __name__ == '__main__':
     # use_generator()
     # use_findall()
     # use_sub()
-    use_split()
+    # use_split()
