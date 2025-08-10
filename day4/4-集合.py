@@ -159,9 +159,22 @@ def use_operators():
     print(set1 ^ set2)  # 对称差集   即两个集合中各自特有的的元素  不同时存在于两个集合中的元素  即两个集合的并集中去掉两个集合的交集的部分
     print('-'*50)
 
+def copy_set():
+    """
+    复制集合
+    :return:
+    """
+    set1 = {1, 2, 3, 4, 5}
+    set2 = set1.copy()
+    print(set1)
+    print(set2)
+    set1.add(6)
+    print(set1)
+    print(set2)  # 复制后的集合与原集合互不影响,表明集合是可变的。
 if __name__ == '__main__':
     #use_set()
     #use_set_operation()
     #use_generator()
     #use_set_query()
-    use_operators()
+    # use_operators()
+    copy_set()
