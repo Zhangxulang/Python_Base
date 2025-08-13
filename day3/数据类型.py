@@ -64,9 +64,9 @@ def test_mutable_data_type():  # 原地修改会影响所有引用
     except TypeError as e:
         print("error:", e)
 
-    b = b'abc'  # bytes, 不可变
+    b = b'abc'  # bytes, 不可变  ，b'abc'前面的b表示是bytes类型，后面跟的'abc'是字符串
     ba = bytearray(b'abc')  # bytearray, 可变
-    ba[0] = ord('z')
+    ba[0] = ord('z')  # 修改字节
     print(ba)  # bytearray(b'zbc')
 
     mv_readonly = memoryview(b'abc')  # 底层不可写（bytes），通常可哈希
