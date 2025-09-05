@@ -101,7 +101,7 @@ Gitee 镜像仓库：https://gitee.com/zhang-xulang/python_base
 
 | 微信                                                         | 支付宝                                                       |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| <img src="./images/wechat_pay.jpg" alt="微信支付" style="zoom: 50%;" /> | <img src="./images/alipay.jpg" alt="支付宝" style="zoom: 50%;" /> |
+| <img src="./images/wechat_pay.jpg" alt="微信支付" style="zoom: 50%;" /> | <img src="./images/alipay.jpg" alt="支付宝" style="zoom: 33%;" /> |
 
 ---
 
