@@ -74,3 +74,39 @@ Gitee 镜像仓库：https://gitee.com/zhang-xulang/python_base
 也欢迎 Fork 后提交 PR 一起完善内容。有价值开源项目，是综合评定出的优秀开源项目
 5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
 6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+
+
+
+
+
+# 声明
+
+部分内容整理自互联网，如有侵权，请联系我，我会第一时间处理。
+
+---
+
+## 📝 个人微信公众号
+**WellDev**  
+一名不羁的学僧，我的世界不只有学术。  
+一条迷途的咸鱼，正在游向属于它的天地！  
+
+![微信公众号二维码](weixin.png)
+
+---
+
+## ☕ 赞助与支持
+这些内容都是我花了不少时间整理和总结出来的。  
+如果你觉得它对你有帮助，请分享给更多需要学习的朋友们。  
+如果你认可我的分享，也可以考虑适当的赞助支持，让我有更多动力持续产出优质内容。  
+
+| 微信                                                         | 支付宝                                                       |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| <img src="./images/wechat_pay.jpg" alt="微信支付" style="zoom: 67%;" /> | <img src="./images/alipay.jpg" alt="支付宝" style="zoom: 50%;" /> |
+
+---
+
+## 📬 联系方式
+- **Email**：Zhangxulang@gmail.com  
+- **WX**：请备注说明（有任何问题都可以直接怼我 😄）  
+
+![微信二维码](./images/wechat.png)
