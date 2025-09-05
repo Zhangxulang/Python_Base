@@ -101,7 +101,7 @@ Gitee 镜像仓库：https://gitee.com/zhang-xulang/python_base
 
 | 微信                                                         | 支付宝                                                       |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| <img src="./images/wechat_pay.jpg" alt="微信支付" style="zoom: 67%;" /> | <img src="./images/alipay.jpg" alt="支付宝" style="zoom: 50%;" /> |
+| <img src="./images/wechat_pay.jpg" alt="微信支付" style="zoom: 50%;" /> | <img src="./images/alipay.jpg" alt="支付宝" style="zoom: 50%;" /> |
 
 ---
 
@@ -109,4 +109,4 @@ Gitee 镜像仓库：https://gitee.com/zhang-xulang/python_base
 - **Email**：Zhangxulang@gmail.com  
 - **WX**：请备注说明（有任何问题都可以直接怼我 😄）  
 
-![微信二维码](./images/wechat.png)
+<img src="./images/wechat.png" alt="微信二维码" style="zoom:50%;" />
