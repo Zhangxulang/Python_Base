@@ -3,25 +3,32 @@
 
 📚 一个从零开始的 Python 学习项目，涵盖基础语法、数据结构、函数编程、文件操作、模块使用、数据分析、自动化脚本等内容，适合初学者逐步提升编程能力。
 
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/25423296/163456776-7f95b81a-f1ed-45f7-b7ab-8fa810d529fa.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
+  <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
+</picture>
 ---
 
 ## 📁 项目结构
 
-```plaintext
-python_base/
-├── day01/         # 变量、数据类型、输入输出、简单计算器
-├── day02/         # 条件语句、逻辑运算、流程控制
-├── day03/         # 循环结构、break/continue、练习题
-├── day04/         # 列表、元组、字符串操作
-├── day05/         # 字典、集合、内置函数
-├── day06/         # 函数定义、参数、作用域
-├── day07/         # 模块、包、random、time 等标准库
-├── day08/         # 文件读写、编码、异常处理
-├── day09/         # 面向对象编程（类、对象、继承）
-├── day10/         # 项目实战 & 第一个脚本自动化工具
-├── day11/         # matplotlib 可视化入门
-├── day12/         # pandas 数据分析基础
-└── tools/         # 常用脚本工具，例如批量重命名、自动推送 Git 等
+[1、各种数据类型](./day4)\
+[2、类和对象](./day5/5-类和对象.py)\
+[3、多态和继承](./day6)\
+[4、包和模块](./day7/3-使用包.py)\
+[5、pytorch](./pytorch)\
+[6、jupyter使用教程](./day10)\
+[7、matplotlib](./day11)\
+[8、pandas](./day12)\
+[9、特征工程](./day13/1-特征工程.ipynb)\
+[10、机器学习分类算法](./day13/2-机器学习分类算法.ipynb)
+
+
+
+
+
+
 🚀 如何使用
 1. 克隆项目
 
