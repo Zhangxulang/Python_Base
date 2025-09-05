@@ -25,10 +25,6 @@
 [10、机器学习分类算法](./day13/2-机器学习分类算法.ipynb)
 
 
-
-
-
-
 🚀 如何使用
 1. 克隆项目
 
@@ -47,20 +43,6 @@ tools/auto_push.bat
 
 推荐手写笔记或思维导图辅助记忆；
 
-建议搭配 PyCharm + Terminal 环境练习。
-
-📦 环境依赖
-核心使用 Python 标准库，部分高级部分需要：
-
-matplotlib
-
-pandas
-
-安装方式：
-
-pip install matplotlib pandas
-建议使用 Python 3.8+ 环境。
-
 👨‍💻 开发者信息
 作者：@Zhangxulang
 
@@ -77,8 +59,6 @@ Gitee 镜像仓库：https://gitee.com/zhang-xulang/python_base
 
 
 
-
-
 # 声明
 
 部分内容整理自互联网，如有侵权，请联系我，我会第一时间处理。
@@ -86,12 +66,6 @@ Gitee 镜像仓库：https://gitee.com/zhang-xulang/python_base
 ---
 
 ## 📝 个人微信公众号
-**WellDev**  
-一名不羁的学僧，我的世界不只有学术。  
-一条迷途的咸鱼，正在游向属于它的天地！  
-
-![微信公众号二维码](weixin.png)
-
 ---
 
 ## ☕ 赞助与支持
