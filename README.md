@@ -45,7 +45,9 @@ tools/auto_push.bat
 👨‍💻 开发者信息
 作者：@Zhangxulang
 
-Gitee 镜像仓库：https://gitee.com/zhang-xulang/python_base
+[深度学习教程传送门](https://github.com/Zhangxulang/Deep-Learning)
+
+
 
 欢迎交流与建议！
 
@@ -53,8 +55,8 @@ Gitee 镜像仓库：https://gitee.com/zhang-xulang/python_base
 如果你觉得这个项目对你有帮助，欢迎点击右上角 Star ⭐ 支持一下！
 
 也欢迎 Fork 后提交 PR 一起完善内容。有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+
+
 
 
 
